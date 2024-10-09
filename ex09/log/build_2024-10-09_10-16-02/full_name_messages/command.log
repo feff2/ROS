@@ -1,0 +1,4 @@
+Invoking command in '/home/fef2/ROS/ex09/build/full_name_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fef2/ROS/ex09/build/full_name_messages -- -j12 -l12
+Invoked command in '/home/fef2/ROS/ex09/build/full_name_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fef2/ROS/ex09/build/full_name_messages -- -j12 -l12
+Invoking command in '/home/fef2/ROS/ex09/build/full_name_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fef2/ROS/ex09/build/full_name_messages
+Invoked command in '/home/fef2/ROS/ex09/build/full_name_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fef2/ROS/ex09/build/full_name_messages

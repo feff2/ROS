@@ -1,0 +1,275 @@
+[0.015s] Invoking command in '/home/fef2/ROS/ex09/build/full_name_messages': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fef2/ROS/ex09/full_name_mesages -DCMAKE_INSTALL_PREFIX=/home/fef2/ROS/ex09/install/full_name_messages
+[0.151s] -- The C compiler identification is GNU 11.4.0
+[0.263s] -- The CXX compiler identification is GNU 11.4.0
+[0.283s] -- Detecting C compiler ABI info
+[0.376s] -- Detecting C compiler ABI info - done
+[0.394s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.395s] -- Detecting C compile features
+[0.396s] -- Detecting C compile features - done
+[0.404s] -- Detecting CXX compiler ABI info
+[0.525s] -- Detecting CXX compiler ABI info - done
+[0.543s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.544s] -- Detecting CXX compile features
+[0.545s] -- Detecting CXX compile features - done
+[0.559s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.745s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.895s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.973s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.016s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.021s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.031s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.045s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.062s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.104s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.343s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.747s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.895s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.923s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.927s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.972s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.973s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.973s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.973s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.997s] -- Found PythonExtra: .so  
+[2.042s] -- Added test 'lint_cmake' to check CMake code style
+[2.044s] -- Added test 'xmllint' to check XML markup files
+[2.051s] -- Configuring done
+[2.081s] -- Generating done
+[2.083s] -- Build files have been written to: /home/fef2/ROS/ex09/build/full_name_messages
+[2.092s] Invoked command in '/home/fef2/ROS/ex09/build/full_name_messages' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fef2/ROS/ex09/full_name_mesages -DCMAKE_INSTALL_PREFIX=/home/fef2/ROS/ex09/install/full_name_messages
+[2.096s] Invoking command in '/home/fef2/ROS/ex09/build/full_name_messages': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fef2/ROS/ex09/build/full_name_messages -- -j12 -l12
+[2.149s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.158s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.167s] [  5%] Built target ament_cmake_python_copy_full_name_messages
+[2.370s] running egg_info
+[2.370s] creating full_name_messages.egg-info
+[2.371s] writing full_name_messages.egg-info/PKG-INFO
+[2.371s] writing dependency_links to full_name_messages.egg-info/dependency_links.txt
+[2.371s] writing top-level names to full_name_messages.egg-info/top_level.txt
+[2.371s] writing manifest file 'full_name_messages.egg-info/SOURCES.txt'
+[2.373s] reading manifest file 'full_name_messages.egg-info/SOURCES.txt'
+[2.373s] writing manifest file 'full_name_messages.egg-info/SOURCES.txt'
+[2.408s] [  5%] Built target ament_cmake_python_build_full_name_messages_egg
+[2.434s] [  5%] Built target full_name_messages__cpp
+[2.439s] [ 10%] [32mBuilding C object CMakeFiles/full_name_messages__rosidl_generator_c.dir/rosidl_generator_c/full_name_messages/msg/detail/full_name_message__functions.c.o[0m
+[2.439s] [ 10%] [32mBuilding C object CMakeFiles/full_name_messages__rosidl_generator_c.dir/rosidl_generator_c/full_name_messages/srv/detail/full_name_sum_service__functions.c.o[0m
+[2.445s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.445s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.445s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.519s] [ 20%] [32m[1mLinking C shared library libfull_name_messages__rosidl_generator_c.so[0m
+[2.564s] [ 20%] Built target full_name_messages__rosidl_generator_c
+[2.574s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.574s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.575s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.702s] [ 33%] [32mBuilding CXX object CMakeFiles/full_name_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/full_name_messages/srv/full_name_sum_service__type_support.cpp.o[0m
+[2.703s] [ 33%] [32mBuilding CXX object CMakeFiles/full_name_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/full_name_messages/msg/full_name_message__type_support.cpp.o[0m
+[2.721s] [ 35%] [32mBuilding CXX object CMakeFiles/full_name_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/full_name_messages/srv/detail/full_name_sum_service__type_support.cpp.o[0m
+[2.722s] [ 38%] [32mBuilding CXX object CMakeFiles/full_name_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/full_name_messages/msg/detail/full_name_message__type_support.cpp.o[0m
+[2.736s] [ 43%] [32mBuilding CXX object CMakeFiles/full_name_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/full_name_messages/srv/detail/dds_fastrtps/full_name_sum_service__type_support.cpp.o[0m
+[2.736s] [ 43%] [32mBuilding CXX object CMakeFiles/full_name_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/full_name_messages/msg/detail/dds_fastrtps/full_name_message__type_support.cpp.o[0m
+[2.851s] [ 46%] [32mBuilding CXX object CMakeFiles/full_name_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/full_name_messages/srv/full_name_sum_service__type_support.cpp.o[0m
+[2.855s] [ 48%] [32mBuilding CXX object CMakeFiles/full_name_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/full_name_messages/msg/full_name_message__type_support.cpp.o[0m
+[2.863s] [ 51%] [32mBuilding C object CMakeFiles/full_name_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/full_name_messages/msg/detail/full_name_message__type_support.c.o[0m
+[2.863s] [ 53%] [32mBuilding C object CMakeFiles/full_name_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/full_name_messages/srv/detail/full_name_sum_service__type_support.c.o[0m
+[2.899s] [ 56%] [32m[1mLinking CXX shared library libfull_name_messages__rosidl_typesupport_c.so[0m
+[2.918s] [ 58%] [32m[1mLinking C shared library libfull_name_messages__rosidl_typesupport_introspection_c.so[0m
+[2.937s] [ 61%] [32mBuilding CXX object CMakeFiles/full_name_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/full_name_messages/msg/detail/full_name_message__type_support_c.cpp.o[0m
+[2.938s] [ 64%] [32mBuilding CXX object CMakeFiles/full_name_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/full_name_messages/srv/detail/full_name_sum_service__type_support_c.cpp.o[0m
+[2.959s] [ 64%] Built target full_name_messages__rosidl_typesupport_c
+[2.965s] [ 64%] Built target full_name_messages__rosidl_typesupport_introspection_c
+[3.042s] [ 66%] [32m[1mLinking CXX shared library libfull_name_messages__rosidl_typesupport_cpp.so[0m
+[3.088s] [ 66%] Built target full_name_messages__rosidl_typesupport_cpp
+[3.218s] [ 69%] [32m[1mLinking CXX shared library libfull_name_messages__rosidl_typesupport_introspection_cpp.so[0m
+[3.244s] [ 71%] [32m[1mLinking CXX shared library libfull_name_messages__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.280s] [ 74%] [32m[1mLinking CXX shared library libfull_name_messages__rosidl_typesupport_fastrtps_c.so[0m
+[3.315s] [ 74%] Built target full_name_messages__rosidl_typesupport_introspection_cpp
+[3.341s] [ 74%] Built target full_name_messages__rosidl_typesupport_fastrtps_cpp
+[3.393s] [ 74%] Built target full_name_messages__rosidl_typesupport_fastrtps_c
+[3.424s] [ 74%] Built target full_name_messages
+[3.447s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.829s] [ 76%] Built target full_name_messages__py
+[3.856s] [ 79%] [32mBuilding C object CMakeFiles/full_name_messages__rosidl_generator_py.dir/rosidl_generator_py/full_name_messages/msg/_full_name_message_s.c.o[0m
+[3.856s] [ 82%] [32mBuilding C object CMakeFiles/full_name_messages__rosidl_generator_py.dir/rosidl_generator_py/full_name_messages/srv/_full_name_sum_service_s.c.o[0m
+[3.993s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/full_name_messages/libfull_name_messages__rosidl_generator_py.so[0m
+[4.058s] [ 84%] Built target full_name_messages__rosidl_generator_py
+[4.079s] [ 87%] [32mBuilding C object CMakeFiles/full_name_messages__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/full_name_messages/_full_name_messages_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.079s] [ 89%] [32mBuilding C object CMakeFiles/full_name_messages__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/full_name_messages/_full_name_messages_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.083s] [ 92%] [32mBuilding C object CMakeFiles/full_name_messages__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/full_name_messages/_full_name_messages_s.ep.rosidl_typesupport_c.c.o[0m
+[4.169s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/full_name_messages/full_name_messages_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.180s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/full_name_messages/full_name_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.185s] [100%] [32m[1mLinking C shared library rosidl_generator_py/full_name_messages/full_name_messages_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.204s] [100%] Built target full_name_messages__rosidl_typesupport_introspection_c__pyext
+[4.218s] [100%] Built target full_name_messages__rosidl_typesupport_fastrtps_c__pyext
+[4.220s] [100%] Built target full_name_messages__rosidl_typesupport_c__pyext
+[4.234s] Invoked command in '/home/fef2/ROS/ex09/build/full_name_messages' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fef2/ROS/ex09/build/full_name_messages -- -j12 -l12
+[4.381s] Invoking command in '/home/fef2/ROS/ex09/build/full_name_messages': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fef2/ROS/ex09/build/full_name_messages
+[4.400s] -- Install configuration: ""
+[4.400s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/ament_index/resource_index/rosidl_interfaces/full_name_messages
+[4.400s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages
+[4.400s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg
+[4.400s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/rosidl_generator_c__visibility_control.h
+[4.400s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail
+[4.401s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail/full_name_message__struct.h
+[4.401s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail/full_name_message__functions.h
+[4.401s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail/full_name_message__type_support.h
+[4.401s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail/full_name_message__functions.c
+[4.401s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/full_name_message.h
+[4.401s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv
+[4.401s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail
+[4.401s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail/full_name_sum_service__type_support.h
+[4.401s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail/full_name_sum_service__struct.h
+[4.401s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail/full_name_sum_service__functions.c
+[4.402s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail/full_name_sum_service__functions.h
+[4.402s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/full_name_sum_service.h
+[4.402s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/environment/library_path.sh
+[4.402s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/environment/library_path.dsv
+[4.402s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/lib/libfull_name_messages__rosidl_generator_c.so
+[4.403s] -- Set runtime path of "/home/fef2/ROS/ex09/install/full_name_messages/lib/libfull_name_messages__rosidl_generator_c.so" to ""
+[4.403s] -- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages
+[4.403s] -- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg
+[4.403s] -- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail
+[4.403s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail/full_name_message__rosidl_typesupport_fastrtps_c.h
+[4.403s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.403s] -- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv
+[4.403s] -- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail
+[4.403s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail/full_name_sum_service__rosidl_typesupport_fastrtps_c.h
+[4.403s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/lib/libfull_name_messages__rosidl_typesupport_fastrtps_c.so
+[4.404s] -- Set runtime path of "/home/fef2/ROS/ex09/install/full_name_messages/lib/libfull_name_messages__rosidl_typesupport_fastrtps_c.so" to ""
+[4.404s] -- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages
+[4.404s] -- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg
+[4.404s] -- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail
+[4.404s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail/full_name_message__struct.hpp
+[4.404s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail/full_name_message__builder.hpp
+[4.404s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail/full_name_message__traits.hpp
+[4.404s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/full_name_message.hpp
+[4.404s] -- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv
+[4.404s] -- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail
+[4.404s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail/full_name_sum_service__struct.hpp
+[4.405s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail/full_name_sum_service__traits.hpp
+[4.405s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail/full_name_sum_service__builder.hpp
+[4.405s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/full_name_sum_service.hpp
+[4.405s] -- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages
+[4.405s] -- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg
+[4.406s] -- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail
+[4.406s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail/dds_fastrtps
+[4.406s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail/full_name_message__rosidl_typesupport_fastrtps_cpp.hpp
+[4.406s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.406s] -- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv
+[4.406s] -- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail
+[4.406s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail/dds_fastrtps
+[4.407s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail/full_name_sum_service__rosidl_typesupport_fastrtps_cpp.hpp
+[4.407s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/lib/libfull_name_messages__rosidl_typesupport_fastrtps_cpp.so
+[4.407s] -- Set runtime path of "/home/fef2/ROS/ex09/install/full_name_messages/lib/libfull_name_messages__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.407s] -- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages
+[4.407s] -- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg
+[4.407s] -- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail
+[4.407s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail/full_name_message__type_support.c
+[4.408s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail/full_name_message__rosidl_typesupport_introspection_c.h
+[4.408s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.408s] -- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv
+[4.408s] -- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail
+[4.409s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail/full_name_sum_service__rosidl_typesupport_introspection_c.h
+[4.409s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail/full_name_sum_service__type_support.c
+[4.409s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/lib/libfull_name_messages__rosidl_typesupport_introspection_c.so
+[4.409s] -- Set runtime path of "/home/fef2/ROS/ex09/install/full_name_messages/lib/libfull_name_messages__rosidl_typesupport_introspection_c.so" to ""
+[4.409s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/lib/libfull_name_messages__rosidl_typesupport_c.so
+[4.409s] -- Set runtime path of "/home/fef2/ROS/ex09/install/full_name_messages/lib/libfull_name_messages__rosidl_typesupport_c.so" to ""
+[4.410s] -- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages
+[4.410s] -- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg
+[4.410s] -- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail
+[4.410s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail/full_name_message__rosidl_typesupport_introspection_cpp.hpp
+[4.410s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail/full_name_message__type_support.cpp
+[4.410s] -- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv
+[4.411s] -- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail
+[4.411s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail/full_name_sum_service__type_support.cpp
+[4.411s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail/full_name_sum_service__rosidl_typesupport_introspection_cpp.hpp
+[4.411s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/lib/libfull_name_messages__rosidl_typesupport_introspection_cpp.so
+[4.411s] -- Set runtime path of "/home/fef2/ROS/ex09/install/full_name_messages/lib/libfull_name_messages__rosidl_typesupport_introspection_cpp.so" to ""
+[4.411s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/lib/libfull_name_messages__rosidl_typesupport_cpp.so
+[4.412s] -- Set runtime path of "/home/fef2/ROS/ex09/install/full_name_messages/lib/libfull_name_messages__rosidl_typesupport_cpp.so" to ""
+[4.412s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/environment/pythonpath.sh
+[4.412s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/environment/pythonpath.dsv
+[4.412s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages-0.0.0-py3.10.egg-info
+[4.412s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages-0.0.0-py3.10.egg-info/top_level.txt
+[4.412s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.412s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.413s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages-0.0.0-py3.10.egg-info/PKG-INFO
+[4.413s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages
+[4.413s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/full_name_messages_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.413s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/full_name_messages_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.413s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/__init__.py
+[4.413s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/_full_name_messages_s.ep.rosidl_typesupport_c.c
+[4.414s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/msg
+[4.414s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/msg/_full_name_message.py
+[4.414s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/msg/__init__.py
+[4.414s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/msg/_full_name_message_s.c
+[4.414s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/libfull_name_messages__rosidl_generator_py.so
+[4.414s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/srv
+[4.414s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/srv/__init__.py
+[4.415s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/srv/_full_name_sum_service_s.c
+[4.415s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/srv/_full_name_sum_service.py
+[4.415s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/_full_name_messages_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.415s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/full_name_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.415s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/_full_name_messages_s.ep.rosidl_typesupport_introspection_c.c
+[4.458s] Listing '/home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages'...
+[4.459s] Compiling '/home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/__init__.py'...
+[4.459s] Listing '/home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/msg'...
+[4.459s] Compiling '/home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/msg/__init__.py'...
+[4.459s] Compiling '/home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/msg/_full_name_message.py'...
+[4.459s] Listing '/home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/srv'...
+[4.459s] Compiling '/home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/srv/__init__.py'...
+[4.460s] Compiling '/home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/srv/_full_name_sum_service.py'...
+[4.463s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/full_name_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.464s] -- Set runtime path of "/home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/full_name_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.464s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/full_name_messages_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.464s] -- Set runtime path of "/home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/full_name_messages_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.464s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/full_name_messages_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.465s] -- Set runtime path of "/home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/full_name_messages_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.465s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/lib/libfull_name_messages__rosidl_generator_py.so
+[4.465s] -- Set runtime path of "/home/fef2/ROS/ex09/install/full_name_messages/lib/libfull_name_messages__rosidl_generator_py.so" to ""
+[4.465s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/msg/FullNameMessage.idl
+[4.466s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/srv/FullNameSumService.idl
+[4.466s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/msg/FullNameMessage.msg
+[4.466s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/srv/FullNameSumService.srv
+[4.466s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/srv/FullNameSumService_Request.msg
+[4.466s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/srv/FullNameSumService_Response.msg
+[4.467s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/ament_index/resource_index/package_run_dependencies/full_name_messages
+[4.467s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/ament_index/resource_index/parent_prefix_path/full_name_messages
+[4.467s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/environment/ament_prefix_path.sh
+[4.467s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/environment/ament_prefix_path.dsv
+[4.467s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/environment/path.sh
+[4.467s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/environment/path.dsv
+[4.468s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/local_setup.bash
+[4.468s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/local_setup.sh
+[4.468s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/local_setup.zsh
+[4.468s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/local_setup.dsv
+[4.468s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/package.dsv
+[4.468s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/ament_index/resource_index/packages/full_name_messages
+[4.468s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/export_full_name_messages__rosidl_generator_cExport.cmake
+[4.469s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/export_full_name_messages__rosidl_generator_cExport-noconfig.cmake
+[4.469s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/export_full_name_messages__rosidl_typesupport_fastrtps_cExport.cmake
+[4.469s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/export_full_name_messages__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.469s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/export_full_name_messages__rosidl_generator_cppExport.cmake
+[4.469s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/export_full_name_messages__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.469s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/export_full_name_messages__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.470s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/full_name_messages__rosidl_typesupport_introspection_cExport.cmake
+[4.470s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/full_name_messages__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.470s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/full_name_messages__rosidl_typesupport_cExport.cmake
+[4.470s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/full_name_messages__rosidl_typesupport_cExport-noconfig.cmake
+[4.470s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/full_name_messages__rosidl_typesupport_introspection_cppExport.cmake
+[4.470s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/full_name_messages__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.471s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/full_name_messages__rosidl_typesupport_cppExport.cmake
+[4.471s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/full_name_messages__rosidl_typesupport_cppExport-noconfig.cmake
+[4.471s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/export_full_name_messages__rosidl_generator_pyExport.cmake
+[4.471s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/export_full_name_messages__rosidl_generator_pyExport-noconfig.cmake
+[4.471s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/rosidl_cmake-extras.cmake
+[4.472s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.472s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/ament_cmake_export_libraries-extras.cmake
+[4.472s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/ament_cmake_export_targets-extras.cmake
+[4.472s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.472s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.472s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.473s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/full_name_messagesConfig.cmake
+[4.473s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/full_name_messagesConfig-version.cmake
+[4.473s] -- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/package.xml
+[4.475s] Invoked command in '/home/fef2/ROS/ex09/build/full_name_messages' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fef2/ROS/ex09/build/full_name_messages

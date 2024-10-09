@@ -1,0 +1,328 @@
+[0.000000] (-) TimerEvent: {}
+[0.000262] (full_name_messages) JobQueued: {'identifier': 'full_name_messages', 'dependencies': OrderedDict()}
+[0.000313] (full_name_messages) JobStarted: {'identifier': 'full_name_messages'}
+[0.007579] (full_name_messages) JobProgress: {'identifier': 'full_name_messages', 'progress': 'cmake'}
+[0.007747] (full_name_messages) Command: {'cmd': ['/usr/bin/cmake', '/home/fef2/ROS/ex09/full_name_mesages', '-DCMAKE_INSTALL_PREFIX=/home/fef2/ROS/ex09/install/full_name_messages'], 'cwd': '/home/fef2/ROS/ex09/build/full_name_messages', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fef2'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fef2'), ('OLDPWD', '/home/fef2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('SYSTEMD_EXEC_PID', '4628'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fef2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fef2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fef2-HP-Pavilion-Gaming-Laptop-15-ec1xxx:@/tmp/.ICE-unix/1173,unix/fef2-HP-Pavilion-Gaming-Laptop-15-ec1xxx:/tmp/.ICE-unix/1173'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ffa3f5fd_2ce8_4ade_a155_70dfa1b1cb32'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.813GV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.168'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fef2/ROS/ex09/build/full_name_messages'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099374] (-) TimerEvent: {}
+[0.151292] (full_name_messages) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199492] (-) TimerEvent: {}
+[0.263136] (full_name_messages) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.283211] (full_name_messages) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299643] (-) TimerEvent: {}
+[0.376200] (full_name_messages) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.394446] (full_name_messages) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.395345] (full_name_messages) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.396616] (full_name_messages) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.399784] (-) TimerEvent: {}
+[0.404588] (full_name_messages) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.499949] (-) TimerEvent: {}
+[0.524858] (full_name_messages) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.543614] (full_name_messages) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.544355] (full_name_messages) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.545465] (full_name_messages) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.559497] (full_name_messages) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600201] (-) TimerEvent: {}
+[0.700557] (-) TimerEvent: {}
+[0.745345] (full_name_messages) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.800875] (-) TimerEvent: {}
+[0.894760] (full_name_messages) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.901044] (-) TimerEvent: {}
+[0.973428] (full_name_messages) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.001237] (-) TimerEvent: {}
+[1.015997] (full_name_messages) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.021198] (full_name_messages) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.031081] (full_name_messages) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.045334] (full_name_messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.062073] (full_name_messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.101348] (-) TimerEvent: {}
+[1.103901] (full_name_messages) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.201632] (-) TimerEvent: {}
+[1.302002] (-) TimerEvent: {}
+[1.343313] (full_name_messages) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.402217] (-) TimerEvent: {}
+[1.502631] (-) TimerEvent: {}
+[1.603076] (-) TimerEvent: {}
+[1.703459] (-) TimerEvent: {}
+[1.746743] (full_name_messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.803607] (-) TimerEvent: {}
+[1.895189] (full_name_messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.903766] (-) TimerEvent: {}
+[1.922707] (full_name_messages) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.926820] (full_name_messages) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.972537] (full_name_messages) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.972916] (full_name_messages) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.973101] (full_name_messages) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.973251] (full_name_messages) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.997250] (full_name_messages) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.003918] (-) TimerEvent: {}
+[2.042325] (full_name_messages) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.043871] (full_name_messages) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.051347] (full_name_messages) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.080878] (full_name_messages) StdoutLine: {'line': b'-- Generating done\n'}
+[2.083574] (full_name_messages) StdoutLine: {'line': b'-- Build files have been written to: /home/fef2/ROS/ex09/build/full_name_messages\n'}
+[2.092003] (full_name_messages) CommandEnded: {'returncode': 0}
+[2.093136] (full_name_messages) JobProgress: {'identifier': 'full_name_messages', 'progress': 'build'}
+[2.095415] (full_name_messages) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fef2/ROS/ex09/build/full_name_messages', '--', '-j12', '-l12'], 'cwd': '/home/fef2/ROS/ex09/build/full_name_messages', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fef2'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fef2'), ('OLDPWD', '/home/fef2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('SYSTEMD_EXEC_PID', '4628'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fef2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fef2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fef2-HP-Pavilion-Gaming-Laptop-15-ec1xxx:@/tmp/.ICE-unix/1173,unix/fef2-HP-Pavilion-Gaming-Laptop-15-ec1xxx:/tmp/.ICE-unix/1173'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ffa3f5fd_2ce8_4ade_a155_70dfa1b1cb32'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.813GV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.168'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fef2/ROS/ex09/build/full_name_messages'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.104119] (-) TimerEvent: {}
+[2.148905] (full_name_messages) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.157987] (full_name_messages) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.166746] (full_name_messages) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_full_name_messages\n'}
+[2.204270] (-) TimerEvent: {}
+[2.304636] (-) TimerEvent: {}
+[2.370051] (full_name_messages) StdoutLine: {'line': b'running egg_info\n'}
+[2.370677] (full_name_messages) StdoutLine: {'line': b'creating full_name_messages.egg-info\n'}
+[2.370961] (full_name_messages) StdoutLine: {'line': b'writing full_name_messages.egg-info/PKG-INFO\n'}
+[2.371127] (full_name_messages) StdoutLine: {'line': b'writing dependency_links to full_name_messages.egg-info/dependency_links.txt\n'}
+[2.371307] (full_name_messages) StdoutLine: {'line': b'writing top-level names to full_name_messages.egg-info/top_level.txt\n'}
+[2.371508] (full_name_messages) StdoutLine: {'line': b"writing manifest file 'full_name_messages.egg-info/SOURCES.txt'\n"}
+[2.373207] (full_name_messages) StdoutLine: {'line': b"reading manifest file 'full_name_messages.egg-info/SOURCES.txt'\n"}
+[2.373636] (full_name_messages) StdoutLine: {'line': b"writing manifest file 'full_name_messages.egg-info/SOURCES.txt'\n"}
+[2.404788] (-) TimerEvent: {}
+[2.407856] (full_name_messages) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_full_name_messages_egg\n'}
+[2.434512] (full_name_messages) StdoutLine: {'line': b'[  5%] Built target full_name_messages__cpp\n'}
+[2.438891] (full_name_messages) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/full_name_messages__rosidl_generator_c.dir/rosidl_generator_c/full_name_messages/msg/detail/full_name_message__functions.c.o\x1b[0m\n'}
+[2.439134] (full_name_messages) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/full_name_messages__rosidl_generator_c.dir/rosidl_generator_c/full_name_messages/srv/detail/full_name_sum_service__functions.c.o\x1b[0m\n'}
+[2.444805] (full_name_messages) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.445028] (full_name_messages) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.445194] (full_name_messages) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.504911] (-) TimerEvent: {}
+[2.519512] (full_name_messages) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libfull_name_messages__rosidl_generator_c.so\x1b[0m\n'}
+[2.563746] (full_name_messages) StdoutLine: {'line': b'[ 20%] Built target full_name_messages__rosidl_generator_c\n'}
+[2.573964] (full_name_messages) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.574162] (full_name_messages) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.575352] (full_name_messages) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.605009] (-) TimerEvent: {}
+[2.702635] (full_name_messages) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/full_name_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/full_name_messages/srv/full_name_sum_service__type_support.cpp.o\x1b[0m\n'}
+[2.702887] (full_name_messages) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/full_name_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/full_name_messages/msg/full_name_message__type_support.cpp.o\x1b[0m\n'}
+[2.705128] (-) TimerEvent: {}
+[2.720759] (full_name_messages) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/full_name_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/full_name_messages/srv/detail/full_name_sum_service__type_support.cpp.o\x1b[0m\n'}
+[2.721725] (full_name_messages) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/full_name_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/full_name_messages/msg/detail/full_name_message__type_support.cpp.o\x1b[0m\n'}
+[2.736357] (full_name_messages) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/full_name_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/full_name_messages/srv/detail/dds_fastrtps/full_name_sum_service__type_support.cpp.o\x1b[0m\n'}
+[2.736556] (full_name_messages) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/full_name_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/full_name_messages/msg/detail/dds_fastrtps/full_name_message__type_support.cpp.o\x1b[0m\n'}
+[2.805258] (-) TimerEvent: {}
+[2.851534] (full_name_messages) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/full_name_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/full_name_messages/srv/full_name_sum_service__type_support.cpp.o\x1b[0m\n'}
+[2.855589] (full_name_messages) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/full_name_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/full_name_messages/msg/full_name_message__type_support.cpp.o\x1b[0m\n'}
+[2.863147] (full_name_messages) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/full_name_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/full_name_messages/msg/detail/full_name_message__type_support.c.o\x1b[0m\n'}
+[2.863540] (full_name_messages) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/full_name_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/full_name_messages/srv/detail/full_name_sum_service__type_support.c.o\x1b[0m\n'}
+[2.899376] (full_name_messages) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libfull_name_messages__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.905416] (-) TimerEvent: {}
+[2.917805] (full_name_messages) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libfull_name_messages__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.936910] (full_name_messages) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/full_name_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/full_name_messages/msg/detail/full_name_message__type_support_c.cpp.o\x1b[0m\n'}
+[2.938438] (full_name_messages) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/full_name_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/full_name_messages/srv/detail/full_name_sum_service__type_support_c.cpp.o\x1b[0m\n'}
+[2.958818] (full_name_messages) StdoutLine: {'line': b'[ 64%] Built target full_name_messages__rosidl_typesupport_c\n'}
+[2.965218] (full_name_messages) StdoutLine: {'line': b'[ 64%] Built target full_name_messages__rosidl_typesupport_introspection_c\n'}
+[3.005583] (-) TimerEvent: {}
+[3.042071] (full_name_messages) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libfull_name_messages__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.088086] (full_name_messages) StdoutLine: {'line': b'[ 66%] Built target full_name_messages__rosidl_typesupport_cpp\n'}
+[3.105738] (-) TimerEvent: {}
+[3.206124] (-) TimerEvent: {}
+[3.218101] (full_name_messages) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libfull_name_messages__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.244477] (full_name_messages) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libfull_name_messages__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.279982] (full_name_messages) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libfull_name_messages__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.306247] (-) TimerEvent: {}
+[3.315452] (full_name_messages) StdoutLine: {'line': b'[ 74%] Built target full_name_messages__rosidl_typesupport_introspection_cpp\n'}
+[3.340886] (full_name_messages) StdoutLine: {'line': b'[ 74%] Built target full_name_messages__rosidl_typesupport_fastrtps_cpp\n'}
+[3.392682] (full_name_messages) StdoutLine: {'line': b'[ 74%] Built target full_name_messages__rosidl_typesupport_fastrtps_c\n'}
+[3.406404] (-) TimerEvent: {}
+[3.424007] (full_name_messages) StdoutLine: {'line': b'[ 74%] Built target full_name_messages\n'}
+[3.446715] (full_name_messages) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.506552] (-) TimerEvent: {}
+[3.606895] (-) TimerEvent: {}
+[3.707257] (-) TimerEvent: {}
+[3.807589] (-) TimerEvent: {}
+[3.829479] (full_name_messages) StdoutLine: {'line': b'[ 76%] Built target full_name_messages__py\n'}
+[3.856317] (full_name_messages) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/full_name_messages__rosidl_generator_py.dir/rosidl_generator_py/full_name_messages/msg/_full_name_message_s.c.o\x1b[0m\n'}
+[3.856666] (full_name_messages) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/full_name_messages__rosidl_generator_py.dir/rosidl_generator_py/full_name_messages/srv/_full_name_sum_service_s.c.o\x1b[0m\n'}
+[3.907710] (-) TimerEvent: {}
+[3.993562] (full_name_messages) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/full_name_messages/libfull_name_messages__rosidl_generator_py.so\x1b[0m\n'}
+[4.007848] (-) TimerEvent: {}
+[4.058085] (full_name_messages) StdoutLine: {'line': b'[ 84%] Built target full_name_messages__rosidl_generator_py\n'}
+[4.079284] (full_name_messages) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/full_name_messages__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/full_name_messages/_full_name_messages_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.079516] (full_name_messages) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/full_name_messages__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/full_name_messages/_full_name_messages_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.082961] (full_name_messages) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/full_name_messages__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/full_name_messages/_full_name_messages_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.108021] (-) TimerEvent: {}
+[4.169413] (full_name_messages) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/full_name_messages/full_name_messages_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.180530] (full_name_messages) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/full_name_messages/full_name_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.185684] (full_name_messages) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/full_name_messages/full_name_messages_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.204422] (full_name_messages) StdoutLine: {'line': b'[100%] Built target full_name_messages__rosidl_typesupport_introspection_c__pyext\n'}
+[4.208134] (-) TimerEvent: {}
+[4.218327] (full_name_messages) StdoutLine: {'line': b'[100%] Built target full_name_messages__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.220450] (full_name_messages) StdoutLine: {'line': b'[100%] Built target full_name_messages__rosidl_typesupport_c__pyext\n'}
+[4.233094] (full_name_messages) CommandEnded: {'returncode': 0}
+[4.308273] (-) TimerEvent: {}
+[4.361402] (full_name_messages) JobProgress: {'identifier': 'full_name_messages', 'progress': 'install'}
+[4.380374] (full_name_messages) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fef2/ROS/ex09/build/full_name_messages'], 'cwd': '/home/fef2/ROS/ex09/build/full_name_messages', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fef2'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fef2'), ('OLDPWD', '/home/fef2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('SYSTEMD_EXEC_PID', '4628'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fef2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fef2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fef2-HP-Pavilion-Gaming-Laptop-15-ec1xxx:@/tmp/.ICE-unix/1173,unix/fef2-HP-Pavilion-Gaming-Laptop-15-ec1xxx:/tmp/.ICE-unix/1173'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ffa3f5fd_2ce8_4ade_a155_70dfa1b1cb32'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.813GV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.168'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fef2/ROS/ex09/build/full_name_messages'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.399845] (full_name_messages) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.400295] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/ament_index/resource_index/rosidl_interfaces/full_name_messages\n'}
+[4.400566] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages\n'}
+[4.400630] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg\n'}
+[4.400718] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.400768] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail\n'}
+[4.400817] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail/full_name_message__struct.h\n'}
+[4.400891] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail/full_name_message__functions.h\n'}
+[4.400983] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail/full_name_message__type_support.h\n'}
+[4.401040] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail/full_name_message__functions.c\n'}
+[4.401148] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/full_name_message.h\n'}
+[4.401244] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv\n'}
+[4.401337] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail\n'}
+[4.401434] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail/full_name_sum_service__type_support.h\n'}
+[4.401569] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail/full_name_sum_service__struct.h\n'}
+[4.401696] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail/full_name_sum_service__functions.c\n'}
+[4.401804] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail/full_name_sum_service__functions.h\n'}
+[4.401947] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/full_name_sum_service.h\n'}
+[4.402183] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/environment/library_path.sh\n'}
+[4.402362] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/environment/library_path.dsv\n'}
+[4.402584] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/lib/libfull_name_messages__rosidl_generator_c.so\n'}
+[4.402964] (full_name_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/fef2/ROS/ex09/install/full_name_messages/lib/libfull_name_messages__rosidl_generator_c.so" to ""\n'}
+[4.403116] (full_name_messages) StdoutLine: {'line': b'-- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages\n'}
+[4.403171] (full_name_messages) StdoutLine: {'line': b'-- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg\n'}
+[4.403220] (full_name_messages) StdoutLine: {'line': b'-- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail\n'}
+[4.403321] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail/full_name_message__rosidl_typesupport_fastrtps_c.h\n'}
+[4.403376] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.403467] (full_name_messages) StdoutLine: {'line': b'-- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv\n'}
+[4.403555] (full_name_messages) StdoutLine: {'line': b'-- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail\n'}
+[4.403627] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail/full_name_sum_service__rosidl_typesupport_fastrtps_c.h\n'}
+[4.403678] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/lib/libfull_name_messages__rosidl_typesupport_fastrtps_c.so\n'}
+[4.403955] (full_name_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/fef2/ROS/ex09/install/full_name_messages/lib/libfull_name_messages__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.404029] (full_name_messages) StdoutLine: {'line': b'-- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages\n'}
+[4.404139] (full_name_messages) StdoutLine: {'line': b'-- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg\n'}
+[4.404190] (full_name_messages) StdoutLine: {'line': b'-- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail\n'}
+[4.404238] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail/full_name_message__struct.hpp\n'}
+[4.404309] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail/full_name_message__builder.hpp\n'}
+[4.404387] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail/full_name_message__traits.hpp\n'}
+[4.404514] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/full_name_message.hpp\n'}
+[4.404637] (full_name_messages) StdoutLine: {'line': b'-- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv\n'}
+[4.404735] (full_name_messages) StdoutLine: {'line': b'-- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail\n'}
+[4.404786] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail/full_name_sum_service__struct.hpp\n'}
+[4.404857] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail/full_name_sum_service__traits.hpp\n'}
+[4.405077] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail/full_name_sum_service__builder.hpp\n'}
+[4.405314] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/full_name_sum_service.hpp\n'}
+[4.405448] (full_name_messages) StdoutLine: {'line': b'-- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages\n'}
+[4.405659] (full_name_messages) StdoutLine: {'line': b'-- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg\n'}
+[4.405780] (full_name_messages) StdoutLine: {'line': b'-- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail\n'}
+[4.405947] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail/dds_fastrtps\n'}
+[4.406086] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail/full_name_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.406195] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.406304] (full_name_messages) StdoutLine: {'line': b'-- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv\n'}
+[4.406430] (full_name_messages) StdoutLine: {'line': b'-- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail\n'}
+[4.406583] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail/dds_fastrtps\n'}
+[4.406731] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail/full_name_sum_service__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.406866] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/lib/libfull_name_messages__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.407011] (full_name_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/fef2/ROS/ex09/install/full_name_messages/lib/libfull_name_messages__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.407161] (full_name_messages) StdoutLine: {'line': b'-- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages\n'}
+[4.407377] (full_name_messages) StdoutLine: {'line': b'-- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg\n'}
+[4.407549] (full_name_messages) StdoutLine: {'line': b'-- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail\n'}
+[4.407679] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail/full_name_message__type_support.c\n'}
+[4.407820] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail/full_name_message__rosidl_typesupport_introspection_c.h\n'}
+[4.407979] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.408182] (full_name_messages) StdoutLine: {'line': b'-- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv\n'}
+[4.408387] (-) TimerEvent: {}
+[4.408618] (full_name_messages) StdoutLine: {'line': b'-- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail\n'}
+[4.408813] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail/full_name_sum_service__rosidl_typesupport_introspection_c.h\n'}
+[4.409052] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail/full_name_sum_service__type_support.c\n'}
+[4.409206] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/lib/libfull_name_messages__rosidl_typesupport_introspection_c.so\n'}
+[4.409344] (full_name_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/fef2/ROS/ex09/install/full_name_messages/lib/libfull_name_messages__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.409487] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/lib/libfull_name_messages__rosidl_typesupport_c.so\n'}
+[4.409629] (full_name_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/fef2/ROS/ex09/install/full_name_messages/lib/libfull_name_messages__rosidl_typesupport_c.so" to ""\n'}
+[4.409770] (full_name_messages) StdoutLine: {'line': b'-- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages\n'}
+[4.409912] (full_name_messages) StdoutLine: {'line': b'-- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg\n'}
+[4.410085] (full_name_messages) StdoutLine: {'line': b'-- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail\n'}
+[4.410230] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail/full_name_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.410482] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/msg/detail/full_name_message__type_support.cpp\n'}
+[4.410624] (full_name_messages) StdoutLine: {'line': b'-- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv\n'}
+[4.410765] (full_name_messages) StdoutLine: {'line': b'-- Up-to-date: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail\n'}
+[4.410905] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail/full_name_sum_service__type_support.cpp\n'}
+[4.411169] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/include/full_name_messages/full_name_messages/srv/detail/full_name_sum_service__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.411335] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/lib/libfull_name_messages__rosidl_typesupport_introspection_cpp.so\n'}
+[4.411478] (full_name_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/fef2/ROS/ex09/install/full_name_messages/lib/libfull_name_messages__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.411618] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/lib/libfull_name_messages__rosidl_typesupport_cpp.so\n'}
+[4.411841] (full_name_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/fef2/ROS/ex09/install/full_name_messages/lib/libfull_name_messages__rosidl_typesupport_cpp.so" to ""\n'}
+[4.412009] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/environment/pythonpath.sh\n'}
+[4.412166] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/environment/pythonpath.dsv\n'}
+[4.412307] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages-0.0.0-py3.10.egg-info\n'}
+[4.412447] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[4.412589] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.412729] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.412869] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[4.413045] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages\n'}
+[4.413272] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/full_name_messages_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.413411] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/full_name_messages_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.413541] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/__init__.py\n'}
+[4.413683] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/_full_name_messages_s.ep.rosidl_typesupport_c.c\n'}
+[4.413814] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/msg\n'}
+[4.413964] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/msg/_full_name_message.py\n'}
+[4.414117] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/msg/__init__.py\n'}
+[4.414248] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/msg/_full_name_message_s.c\n'}
+[4.414378] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/libfull_name_messages__rosidl_generator_py.so\n'}
+[4.414513] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/srv\n'}
+[4.414659] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/srv/__init__.py\n'}
+[4.414816] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/srv/_full_name_sum_service_s.c\n'}
+[4.414981] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/srv/_full_name_sum_service.py\n'}
+[4.415134] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/_full_name_messages_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.415265] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/full_name_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.415396] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/_full_name_messages_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.458544] (full_name_messages) StdoutLine: {'line': b"Listing '/home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages'...\n"}
+[4.458842] (full_name_messages) StdoutLine: {'line': b"Compiling '/home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/__init__.py'...\n"}
+[4.459024] (full_name_messages) StdoutLine: {'line': b"Listing '/home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/msg'...\n"}
+[4.459203] (full_name_messages) StdoutLine: {'line': b"Compiling '/home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/msg/__init__.py'...\n"}
+[4.459337] (full_name_messages) StdoutLine: {'line': b"Compiling '/home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/msg/_full_name_message.py'...\n"}
+[4.459467] (full_name_messages) StdoutLine: {'line': b"Listing '/home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/srv'...\n"}
+[4.459596] (full_name_messages) StdoutLine: {'line': b"Compiling '/home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/srv/__init__.py'...\n"}
+[4.459749] (full_name_messages) StdoutLine: {'line': b"Compiling '/home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/srv/_full_name_sum_service.py'...\n"}
+[4.463183] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/full_name_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.463791] (full_name_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/full_name_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.464080] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/full_name_messages_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.464338] (full_name_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/full_name_messages_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.464557] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/full_name_messages_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.464859] (full_name_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/fef2/ROS/ex09/install/full_name_messages/local/lib/python3.10/dist-packages/full_name_messages/full_name_messages_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.465098] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/lib/libfull_name_messages__rosidl_generator_py.so\n'}
+[4.465320] (full_name_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/fef2/ROS/ex09/install/full_name_messages/lib/libfull_name_messages__rosidl_generator_py.so" to ""\n'}
+[4.465560] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/msg/FullNameMessage.idl\n'}
+[4.465720] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/srv/FullNameSumService.idl\n'}
+[4.466035] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/msg/FullNameMessage.msg\n'}
+[4.466359] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/srv/FullNameSumService.srv\n'}
+[4.466524] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/srv/FullNameSumService_Request.msg\n'}
+[4.466699] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/srv/FullNameSumService_Response.msg\n'}
+[4.466872] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/ament_index/resource_index/package_run_dependencies/full_name_messages\n'}
+[4.467119] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/ament_index/resource_index/parent_prefix_path/full_name_messages\n'}
+[4.467268] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/environment/ament_prefix_path.sh\n'}
+[4.467410] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/environment/ament_prefix_path.dsv\n'}
+[4.467551] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/environment/path.sh\n'}
+[4.467732] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/environment/path.dsv\n'}
+[4.467835] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/local_setup.bash\n'}
+[4.467957] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/local_setup.sh\n'}
+[4.468080] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/local_setup.zsh\n'}
+[4.468219] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/local_setup.dsv\n'}
+[4.468348] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/package.dsv\n'}
+[4.468484] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/ament_index/resource_index/packages/full_name_messages\n'}
+[4.468610] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/export_full_name_messages__rosidl_generator_cExport.cmake\n'}
+[4.468752] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/export_full_name_messages__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.468992] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/export_full_name_messages__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.469161] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/export_full_name_messages__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.469343] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/export_full_name_messages__rosidl_generator_cppExport.cmake\n'}
+[4.469487] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/export_full_name_messages__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.469630] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/export_full_name_messages__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.469847] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/full_name_messages__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.470022] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/full_name_messages__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.470175] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/full_name_messages__rosidl_typesupport_cExport.cmake\n'}
+[4.470399] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/full_name_messages__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.470540] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/full_name_messages__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.470683] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/full_name_messages__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.470825] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/full_name_messages__rosidl_typesupport_cppExport.cmake\n'}
+[4.471105] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/full_name_messages__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.471256] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/export_full_name_messages__rosidl_generator_pyExport.cmake\n'}
+[4.471398] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/export_full_name_messages__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.471540] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/rosidl_cmake-extras.cmake\n'}
+[4.471766] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.471973] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.472180] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.472325] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.472467] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.472608] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.472814] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/full_name_messagesConfig.cmake\n'}
+[4.472970] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/cmake/full_name_messagesConfig-version.cmake\n'}
+[4.473145] (full_name_messages) StdoutLine: {'line': b'-- Installing: /home/fef2/ROS/ex09/install/full_name_messages/share/full_name_messages/package.xml\n'}
+[4.475382] (full_name_messages) CommandEnded: {'returncode': 0}
+[4.508536] (-) TimerEvent: {}
+[4.593632] (full_name_messages) JobEnded: {'identifier': 'full_name_messages', 'rc': 0}
+[4.594192] (-) EventReactorShutdown: {}
