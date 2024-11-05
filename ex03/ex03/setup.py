@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'follow_delay'
+package_name = 'ex03'
 
 setup(
     name=package_name,
@@ -21,9 +21,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'turtle1_tf2_broadcaster = follow_delay.turtle1_tf2_broadcaster:main',
-            'turtle2_tf2_broadcaster = follow_delay.turtle2_tf2_broadcaster:main',
-            'turtle2_tf2_listener = follow_delay.turtle2_tf2_listener:main',
+            'turtle1_tf2_broadcaster = ex03.turtle1_tf2_broadcaster:main',
+            'turtle2_tf2_broadcaster = ex03.turtle2_tf2_broadcaster:main',
+            'turtle2_tf2_listener = ex03.turtle2_tf2_listener:main',
         ],
     },
 )

@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package format="3">
-  <name>after_carrot</name>
+  <name>ex03</name>
   <version>0.0.0</version>
-  <description>after carrot</description>
-  <maintainer email="nik_koshelev03@mail.ru">fef2</maintainer>
+  <description>The ex02 package</description>
+  <maintainer email="s.mendrul@gmail.com">chukotskiy_shaman</maintainer>
   <license>Apache License 2.0</license>
 
   <buildtool_depend>ament_python</buildtool_depend>

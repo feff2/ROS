@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'after_carrot'
+package_name = 'ex02'
 
 setup(
     name=package_name,
@@ -16,16 +16,16 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='Your Name',
-    maintainer_email='example@mail.com',
+    maintainer_email='you@example.com',
     description='TODO: Package description',
     license='Apache License 2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'turtle1_tf2_broadcaster = after_carrot.turtle1_tf2_broadcaster:main',
-            'turtle2_tf2_broadcaster = after_carrot.turtle2_tf2_broadcaster:main',
-            'carrot_tf2_broadcaster = after_carrot.carrot_tf2_broadcaster:main',
-            'turtle2_tf2_listener = after_carrot.turtle2_tf2_listener:main',
+            'turtle1_tf2_broadcaster = ex02.turtle1_tf2_broadcaster:main',
+            'turtle2_tf2_broadcaster = ex02.turtle2_tf2_broadcaster:main',
+            'carrot_tf2_broadcaster = ex02.carrot_tf2_broadcaster:main',
+            'turtle2_tf2_listener = ex02.turtle2_tf2_listener:main',
         ],
     },
 )
