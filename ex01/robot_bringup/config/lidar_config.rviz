@@ -185,7 +185,7 @@ Visualization Manager:
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
-    base_link: robot/odom
+    Fixed Frame: robot/odom
     Frame Rate: 30
   Name: root
   Tools:

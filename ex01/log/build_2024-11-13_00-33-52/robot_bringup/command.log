@@ -1,6 +1,0 @@
-Invoking command in '/home/fef2/ROS/ex01/build/robot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fef2/ROS/ex01/robot_bringup -DCMAKE_INSTALL_PREFIX=/home/fef2/ROS/ex01/install/robot_bringup
-Invoked command in '/home/fef2/ROS/ex01/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fef2/ROS/ex01/robot_bringup -DCMAKE_INSTALL_PREFIX=/home/fef2/ROS/ex01/install/robot_bringup
-Invoking command in '/home/fef2/ROS/ex01/build/robot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fef2/ROS/ex01/build/robot_bringup -- -j12 -l12
-Invoked command in '/home/fef2/ROS/ex01/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fef2/ROS/ex01/build/robot_bringup -- -j12 -l12
-Invoking command in '/home/fef2/ROS/ex01/build/robot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fef2/ROS/ex01/build/robot_bringup
-Invoked command in '/home/fef2/ROS/ex01/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fef2/ROS/ex01/build/robot_bringup
