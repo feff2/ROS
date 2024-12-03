@@ -1,11 +1,10 @@
 <?xml version="1.0" ?>
 <robot name='robot' xmlns:xacro="http://ros.org/wiki/xacro">
 
-    <xacro:include filename="gazebo.urdf.xacro" />
-    <xacro:include filename="lidar.urdf.xacro"/>
-    <xacro:include filename="depth.urdf.xacro" />
-    <xacro:include filename="imu.urdf.xacro" />
-    
+    <xacro:include filename="$(find robot_description)/urdf/gazebo.urdf.xacro" />
+    <!--xacro:include filename="$(find robot_description)/urdf/lidar.urdf.xacro" /-->
+    <!--xacro:include filename="$(find robot_description)/urdf/depth.urdf.xacro" /-->
+
     <xacro:property name="chassis_length" value="0.335"/>
     <xacro:property name="chassis_width" value="0.265"/>
     <xacro:property name="chassis_height" value="0.138"/>
@@ -101,7 +100,7 @@
     <link name="left_wheel">
         <visual>
             <geometry>
-                <cylinder radius="${wheel_radius}" length="${wheel_thickness}"/>
+                <box size="${wheel_radius*2} ${wheel_radius*2} ${wheel_thickness}"/>
             </geometry>
             <material name="blue"/>
         </visual>
@@ -133,7 +132,7 @@
     <link name="right_wheel">
         <visual>
             <geometry>
-                <cylinder radius="${wheel_radius}" length="${wheel_thickness}"/>
+                <box size="${wheel_radius*2} ${wheel_radius*2} ${wheel_thickness}"/>
             </geometry>
             <material name="blue"/>
         </visual>
@@ -160,6 +159,7 @@
         <child link="caster_wheel"/>
         <origin xyz="${caster_wheel_offset_x} 0 ${caster_wheel_offset_z}"/>
     </joint>
+
 
     <link name="caster_wheel">
         <visual>
